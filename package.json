@@ -9,9 +9,6 @@
     "build": "rollup -c rollup.config.js",
     "test": "node test/index.cjs"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@qertis"
-  },
   "keywords": [
     "franc commonjs",
     "franc cjs",
@@ -32,6 +29,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qertis/franc-node.git"
+    "url": "git+https://github.com/antoniojps/franc-node"
   }
 }
