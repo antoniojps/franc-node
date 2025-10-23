@@ -1,8 +1,7 @@
 {
-  "name": "@qertis/franc-node",
+  "name": "franc-cjs",
   "version": "6.2.0",
   "description": "franc cjs module - common js package",
-  "author": "Denis Baskovsky (https://baskovsky.ru/)",
   "main": "dist/index.cjs",
   "type": "module",
   "private": false,
