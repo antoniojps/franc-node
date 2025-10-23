@@ -1,13 +1,13 @@
 {
-  "name": "franc-cjs",
+  "name": "franc-commonjs",
   "version": "6.2.0",
-  "description": "franc cjs module - common js package",
+  "description": "franc-commonjs module - common js package",
   "main": "dist/index.cjs",
   "type": "module",
   "private": false,
   "scripts": {
     "build": "rollup -c rollup.config.js",
-    "test": "node test/index.cjs"
+    "test": "node test/index.cjs --test-reporter=tap"
   },
   "keywords": [
     "franc commonjs",
